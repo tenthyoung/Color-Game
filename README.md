@@ -1,2 +1,10 @@
 # Color-Game
-RGB color guessing game using DOM Manipulation HTML, CSS, Javascript. and jQuery
+RGB color guessing game.
+
+Using: 
+-HTML
+-CSS
+-Javascript
+-jQuery
+-Materialize CSS
+
