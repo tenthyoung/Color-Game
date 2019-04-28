@@ -34,7 +34,7 @@ EASY_HARD_BTN.addEventListener("click", function() {
 
     pickedColor = pickColor();
 
-    colorDisplay.textContent = pickedColor;
+    colorDisplay.textContent = pickedColor.toUpperCase();
     
     console.log(squares);
     console.log(colors);
@@ -48,7 +48,7 @@ EASY_HARD_BTN.addEventListener("click", function() {
     prompt.textContent = "Guess the right color!";
 });
 
-colorDisplay.textContent = pickedColor;
+colorDisplay.textContent = pickedColor.toUpperCase();
 
 resetButton.addEventListener("click", function() {
     if (isEasy) {
@@ -63,7 +63,7 @@ resetButton.addEventListener("click", function() {
 
     pickedColor = pickColor();
 
-    colorDisplay.textContent = pickedColor;
+    colorDisplay.textContent = pickedColor.toUpperCase();
 
     for (let i = 0 ; i< squares.length; i++ ) {
         squares[i].style.backgroundColor = colors[i];
